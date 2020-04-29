@@ -8,3 +8,17 @@ git commit -m "[commit message]"   #for commiting
 git rm -r [file-name.txt]  # for removing the perticular files
 git push origin [branch master]
 git push -u origin [branch name]  #for upload the code changes in the host
+
+# Command's related to branches
+git branch  # how many branch are there
+git branch -a
+git branch [branch name] #for creating branch
+git branch -d [branch name]
+git push origin --delete [branch name]
+git checkout -b [branch name] #for creating and switching branches with one command
+git checkout -b [branch name] origin/[branch name]
+git checkout [branch name] #for switching in perticular branch
+git checkout -
+git checkout -- [file-name.txt]
+git merge [branch name] # merge current branch with the given branch
+git merge [source branch] [target branch] #for merging two branches
