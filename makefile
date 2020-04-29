@@ -27,3 +27,11 @@ git stash #Use git stash when you want to record the current state of the workin
 git stash clear
 git log #give the hsitory of all commits with hashcode
 git revert <insert bad commit hash here> #checkout the previous state
+
+git pull #for adding whcih are done in remote repo. in the changes to your local repo.
+git pull origin [branch name]
+git remote add origin # adding the host to your repo.
+ssh://git@github.com[username]/[repositary-name].git
+git remote set-url origin
+ssh://git@github.com[username]/[repositary-name].git
+git log --summary 
